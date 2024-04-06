@@ -18,5 +18,10 @@ This is a project based on Vue and Bootstrap that seeks to handle permission req
 #  Setup 
   - Check your VUE_APP_BASE_API in the .env and make sure it points to the API url
   
- # Run
+# Run
   - run npm run serve
+
+# Troubleshooting
+ - After run npm run serve command if you go into an error like "Can't resolve '@popperjs/core'" please just run the next commands:
+ - npm install @popperjs/core 
+ - npm run serve

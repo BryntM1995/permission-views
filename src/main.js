@@ -4,8 +4,6 @@ import router from "./router";
 import store from "./store";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap-vue/dist/bootstrap-vue.css";
-import { BootstrapVue, IconsPlugin } from "bootstrap-vue";
 
 import { ValidationProvider, ValidationObserver, extend } from "vee-validate";
 Vue.component("ValidationProvider", ValidationProvider);
@@ -16,7 +14,6 @@ extend("required", {
   message: "Este campo es requerido",
 });
 
-Vue.use(BootstrapVue);
 Vue.use(IconsPlugin);
 Vue.config.productionTip = false;
 
