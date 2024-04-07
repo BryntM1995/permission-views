@@ -14,7 +14,6 @@ extend("required", {
   message: "Este campo es requerido",
 });
 
-Vue.use(IconsPlugin);
 Vue.config.productionTip = false;
 
 new Vue({
